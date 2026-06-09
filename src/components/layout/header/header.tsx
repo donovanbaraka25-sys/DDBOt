@@ -179,7 +179,7 @@ const AppHeader = observer(({ isAuthenticating }: TAppHeaderProps) => {
                     <Button
                         primary
                         onClick={() => {
-                            window.open(standalone_routes.signup);
+                            window.open('https://partner-tracking.deriv.com/click?a=20822&o=1&c=3&link_id=1');
                         }}
                     >
                         <Localize i18n_default_text='Sign up' />
